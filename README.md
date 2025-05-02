@@ -3,6 +3,9 @@
 ## Visão Geral
 Este projeto é responsável pelo processamento e gerenciamento de assets (ativos) através de uma arquitetura serverless na AWS. O sistema processa eventos de metadados de tabelas de bancos de dados e determina se devem ser tratados como operações de upsert ou drop.
 
+## Diagrama de Arquitetura
+![Diagrama de Metadados Transacionais](metadados_transacionais.jpg)
+
 ## Arquitetura do Sistema
 
 ### Componentes Principais
