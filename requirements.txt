@@ -1,0 +1,18 @@
+boto3>=1.26.0
+aws-lambda-powertools>=2.0.0
+python-json-logger>=2.0.7
+python-dateutil==2.8.2
+pynamodb==5.5.0
+kafka-python>=2.0.2
+ddtrace==3.6.0
+
+datadog==0.51.0
+datadog-lambda==6.107.0
+
+# Test dependencies
+pytest==8.0.0
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+moto==4.2.13
+freezegun==1.4.0
+pytest-asyncio==0.23.8

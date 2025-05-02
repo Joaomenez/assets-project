@@ -1,0 +1,133 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Cobertura de testes e cache
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+log/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# AWS
+.aws/
+*.aws-sam/
+packaged.yaml
+samconfig.toml
+
+# Datadog
+ddtrace-*.log
+dd-trace-*.log
+dd-trace-py.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.bak
+*.backup
+
+# Arquivos de dependências
+node_modules/
+jspm_packages/
+bower_components/
+
+# Arquivos de build
+.serverless/
+.webpack/
+.next/
+out/
+build/
+dist/
+
+# Cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Arquivos de configuração local
+local_settings.py
+instance/
+.instance/
+
+# Arquivos de dados
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.zip
+*.tar
+*.rar
+
+# Chaves e certificados
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+*.pub
+

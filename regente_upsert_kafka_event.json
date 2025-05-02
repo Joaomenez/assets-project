@@ -1,0 +1,40 @@
+{
+    "correlation_id": "12345678901",
+    "status": "running|completed",
+    "asset_name": "example_table",
+    "asset_parent_name": "example_db",
+    "asset_counts": "20",
+    "aws_account_number": "12345678901",
+    "technology_service_name": "rds-mysql",
+    "asset_type": "table",
+    "instance_technology_name": "rds_eirwuruwehyrw98867e6r8w7",
+    "attributes": [
+        {
+            "attribute_name": "id",
+            "data_type": "int",
+            "is_primary_key": true,
+            "is_nullable": false,
+            "default_value": null,
+            "comment_description": "str"
+        },
+        {
+            "attribute_name": "name",
+            "data_type": "varchar(255)",
+            "is_primary_key": false,
+            "is_nullable": false,
+            "default_value": null,
+            "comment_description": "str"
+        },
+        {
+            "attribute_name": "created_at",
+            "data_type": "timestamp",
+            "is_primary_key": false,
+            "is_nullable": false,
+            "default_value": null,
+            "comment_description": "str"
+        }
+    ],
+    "indexed_field_list": [{
+        "indexed_field_composition": ["str"]
+    }]
+}
